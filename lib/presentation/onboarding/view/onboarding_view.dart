@@ -1,4 +1,4 @@
-import 'package:advanced_flutter_mvvm/domain/models.dart';
+import 'package:advanced_flutter_mvvm/domain/model/models.dart';
 import 'package:advanced_flutter_mvvm/presentation/onboarding/viewmodel/onboarding_viewmodel.dart';
 import 'package:advanced_flutter_mvvm/presentation/resources/assets_manager.dart';
 import 'package:advanced_flutter_mvvm/presentation/resources/color_manager.dart';

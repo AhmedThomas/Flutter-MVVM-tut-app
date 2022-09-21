@@ -3,7 +3,7 @@ import 'package:advanced_flutter_mvvm/presentation/resources/strings_manager.dar
 import 'package:flutter/material.dart';
 
 import '../forgot_password/forgot_password_view.dart';
-import '../login/login_view.dart';
+import '../login/view/login_view.dart';
 import '../main/main_view.dart';
 import '../register/register_view.dart';
 import '../splash/splash_view.dart';

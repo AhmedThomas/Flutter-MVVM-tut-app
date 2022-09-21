@@ -30,14 +30,14 @@ Map<String, dynamic> _$CustomerResponseToJson(CustomerResponse instance) =>
       'numOfNotification': instance.numOfNotification,
     };
 
-ContactsResponse _$ContactResponseFromJson(Map<String, dynamic> json) =>
+ContactsResponse _$ContactsResponseFromJson(Map<String, dynamic> json) =>
     ContactsResponse(
       json['phone'] as String?,
       json['email'] as String?,
       json['link'] as String?,
     );
 
-Map<String, dynamic> _$ContactResponseToJson(ContactsResponse instance) =>
+Map<String, dynamic> _$ContactsResponseToJson(ContactsResponse instance) =>
     <String, dynamic>{
       'phone': instance.phone,
       'email': instance.email,
